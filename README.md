@@ -5,7 +5,7 @@
 
 # Constrictor: Type Safety And Determinism For Python
 
-[Installation](#) | [Documentation](#) | [Examples](#) 
+[**Installation**](#) | [**Documentation**](#) | [**Examples**](#) 
 
 Constrictor is lightweight Python library focused on improving type saftey and determinism, primarily through the use of decorators. Currently WIP. 
 
