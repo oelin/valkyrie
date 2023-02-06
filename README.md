@@ -1,5 +1,5 @@
 <div align=center>
-	<img src='https://github.com/oelin/constrictor/blob/main/images/constrictor.svg'>
+	<img src='https://github.com/oelin/constrictor/blob/main/images/constrictor.svg' width=30%>
 </div>
 
 
