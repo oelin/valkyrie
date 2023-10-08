@@ -39,7 +39,7 @@ ValidatedUser = Validated(User, user_validator)
 Introduction
 ------------
 
-Validated typing is a functional form of data validation that guarantees a program can never enter certain *invalid* states. 
+Validated typing is a functional approach to data validation which guarantees that data remains consistent with a set of predicates. 
 
 
 ## Installation
