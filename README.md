@@ -2,6 +2,8 @@
         <img src='https://github.com/oelin/valary/blob/main/images/valary.svg' width=40%>
 </div>
 
+# Valary
+
 Valary implements validated typing for Python. A validated type is an *immutable* type for which every instance satisfies a predicate $P(\cdot)$. 
 
 ```python
