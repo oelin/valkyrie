@@ -8,7 +8,7 @@
 
 [**Features**](#features) | [**Getting Started**](#getting-started) | [**Examples**](https://github.com/oelin/constrictor/tree/main/examples)
 
-Constrictor provides a lightweight implementation of validated types, i.e. types that *shall not be instantiated* unless certain criteria are met. 
+Constrictor provides a lightweight implementation of validated types for Python. A validated type is an *immutable* type for which every instance satisfies a predciate $P(\cdot)$. This holds true so long as $P(\cdot)$ is a pure function. 
 
 ```python
 from dataclasses import dataclass
