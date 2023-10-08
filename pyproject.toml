@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "constrictor"
+name = "valkyrie"
 version = "0.1.0"
-description = ""
+description = "Validated typing for Python."
 authors = ["user <user@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.11"
 
 
 [build-system]
