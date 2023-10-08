@@ -8,8 +8,6 @@ Valkyrie implements validated typing for Python. A validated type is an *immutab
 
 ## Installation
 
-Install Valkyrie using `pip`.
-
 ```bash
 pip install git+https://github.com/oelin/valkyrie
 ```
@@ -41,5 +39,3 @@ from valkyrie import Validated
 
 ValidatedUser = Validated(User, user_validator) 
 ```
-
-Every instance of `ValidatedUser` satisfies `user_validator` by definition.
