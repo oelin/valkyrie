@@ -2,7 +2,7 @@
         <img src='https://github.com/oelin/constrictor/blob/main/images/constrictor.svg' width=40%>
 </div>
 
-# Constrictor: Validated Types for Correctness and Predictability
+# Constrictor
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
