@@ -2,13 +2,13 @@
         <img src='https://github.com/oelin/constrictor/blob/main/images/constrictor.svg' width=40%>
 </div>
 
-# Constrictor: Validated Types for Python
+# Valance: Validated Typing for Python
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 [**Features**](#features) | [**Getting Started**](#getting-started) | [**Examples**](https://github.com/oelin/constrictor/tree/main/examples)
 
-Constrictor provides a lightweight implementation of validated types for Python. A validated type is an *immutable* type for which every instance satisfies a predicate $P(\cdot)$. 
+Valance implements validated typing for Python. A validated type is an *immutable* type for which every instance satisfies a predicate $P(\cdot)$. 
 
 ```python
 from dataclasses import dataclass
@@ -39,7 +39,7 @@ ValidatedUser = Validated(User, user_validator)
 Introduction
 ------------
 
-In Constrictor, validated types are your trusty allies for 
+Validated typing is a functional data validation method that relies on immutability. Suppose we have a type $\mathbf{T}$.
 
 
 ## Installation
