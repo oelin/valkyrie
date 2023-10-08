@@ -2,9 +2,9 @@
         <img src='https://github.com/oelin/valary/blob/main/images/valary.svg' width=40%>
 </div>
 
-# Valary
+# Valkyrie
 
-Valary implements validated typing for Python. A validated type is an *immutable* type for which every instance satisfies a predicate $P(\cdot)$. 
+Valkyrie implements validated typing for Python. A validated type is an *immutable* type for which every instance satisfies a predicate $P(\cdot)$. 
 
 ```python
 from dataclasses import dataclass
@@ -27,7 +27,7 @@ def user_validator(user: User) -> bool:
 ```
 
 ```python
-from constrictor import Validated
+from valkyrie import Validated
 
 ValidatedUser = Validated(User, user_validator) 
 ```
