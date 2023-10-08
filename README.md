@@ -8,7 +8,44 @@
 
 [**Features**](#features) | [**Getting Started**](#getting-started) | [**Examples**](https://github.com/oelin/constrictor/tree/main/examples)
 
-Constrictor provides a lightweight implementation of *validated types*, i.e. types that may not be instantiated unless certain criteria are met. Validated types can drastically improve the correctness, predictability and maintainability of your code.
+Constrictor provides a lightweight implementation of validated types, i.e. types that *shall not be instantiated* unless certain criteria are met. 
+
+```python
+from dataclasses import dataclass
+
+@dataclass(frozen=True)
+class User:
+    username: str
+    password: str
+```
+
+```python
+def user_validator(user: User) -> bool:
+    """Validates a User."""
+
+    assert isinstance(user.username, str)
+    assert isinstance(user.password, str)
+    assert len(user.username) < 256
+
+    return True
+```
+
+```python
+from constrictor import Validated
+
+ValidatedUser = Validated(User, user_validator) 
+```
+
+Introduction
+------------
+
+Validated types are your trusty allies for 
+
+
+
+## Installation
+
+You can 
 
 
 Introduction
