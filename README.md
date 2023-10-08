@@ -8,7 +8,7 @@
 
 [**Features**](#features) | [**Getting Started**](#getting-started) | [**Examples**](https://github.com/oelin/constrictor/tree/main/examples)
 
-Constrictor provides a lightweight implementation of validated types for Python. A validated type is an *immutable* type for which every instance satisfies a predicate $P(\cdot)$. Validated types help to make your code more debuggable   
+Constrictor provides a lightweight implementation of validated types for Python. A validated type is an *immutable* type for which every instance satisfies a predicate $P(\cdot)$. 
 
 ```python
 from dataclasses import dataclass
@@ -39,8 +39,7 @@ ValidatedUser = Validated(User, user_validator)
 Introduction
 ------------
 
-Validated types are your trusty allies for 
-
+In Constrictor, validated types are your trusty allies for 
 
 
 ## Installation
