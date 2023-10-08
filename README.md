@@ -1,12 +1,6 @@
 <div align=center>
-        <img src='https://github.com/oelin/constrictor/blob/main/images/constrictor.svg' width=40%>
+        <img src='https://github.com/oelin/valary/blob/main/images/valary' width=40%>
 </div>
-
-# Valary: Validated Typing for Python
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
-[**Features**](#features) | [**Getting Started**](#getting-started) | [**Examples**](https://github.com/oelin/constrictor/tree/main/examples)
 
 Valary implements validated typing for Python. A validated type is an *immutable* type for which every instance satisfies a predicate $P(\cdot)$. 
 
