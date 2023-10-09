@@ -4,7 +4,7 @@
 
 # Valkyrie
 
-Valkyrie implements validated typing for Python.
+Valkyrie implements validated typing for Python. A validated type is an immutable type that *shall not be instantiated* unless certain criteria are met.
 
 ## Installation
 
