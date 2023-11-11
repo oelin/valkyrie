@@ -1,4 +1,4 @@
-"""Valkyrie"""
+"""Valory."""
 
 from dataclasses import dataclass
 from functools import wraps
@@ -6,7 +6,7 @@ from typing import Any, Type
 
 
 def validate(type: Type) -> Type:
-    """Creates a validated type."""
+    """Returns a validated type."""
 
     type = dataclass(frozen=True)(type)  # Immutability.
     
