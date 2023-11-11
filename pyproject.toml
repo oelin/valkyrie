@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "valkyrie"
-version = "0.1.0"
-description = "Validated typing for Python."
+name = "valory"
+version = "2.0.0"
+description = "Validated types for Python."
 authors = ["user <user@example.com>"]
 readme = "README.md"
 
