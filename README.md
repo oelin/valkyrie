@@ -1,30 +1,30 @@
-<div align=center>
-        <img src='https://github.com/oelin/valary/blob/main/images/valary.svg' width=40%>
-</div>
-
-# Valkyrie
+# Valory
 
 Validated types for Python.
 
-## Installation
+Installation
+------------
 
-```bash
-pip install git+https://github.com/oelin/valkyrie
+```sh
+pip install git+https://github.com/oelin/valory
 ```
 
-## Usage
+Usage
+-----
 
 ```python
-from valkyrie import validate
+from valory import validate
 
 @validate
 class User:
     username: str
     password: str
 
-    def validate(self) -> None:
-        """Validates the user."""
-
+    def validate(self):
         assert isinstance(self.username, str)
         assert isinstance(self.password, str)
+```
+
+```python
+user = User('Alice', 1234)  # Throws an exception.
 ```
