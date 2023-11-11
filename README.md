@@ -4,7 +4,7 @@
 
 # Valkyrie
 
-Valkyrie implements validated typing for Python. A validated type is an immutable type that *shall not be instantiated* unless certain criteria are met.
+Validated types for Python.
 
 ## Installation
 
@@ -15,27 +15,16 @@ pip install git+https://github.com/oelin/valkyrie
 ## Usage
 
 ```python
-from dataclasses import dataclass
+from valkyrie import validate
 
-@dataclass(frozen=True)
+@validate
 class User:
     username: str
     password: str
-```
 
-```python
-def user_validator(user: User) -> bool:
-    """Validates a User."""
+    def validate(self) -> None:
+        """Validates the user."""
 
-    assert isinstance(user.username, str)
-    assert isinstance(user.password, str)
-    assert len(user.username) < 256
-
-    return True
-```
-
-```python
-from valkyrie import Validated
-
-ValidatedUser = Validated(User, user_validator) 
+        assert isinstance(self.username, str)
+        assert isinstance(self.password, str)
 ```
