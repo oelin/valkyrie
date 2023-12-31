@@ -1,6 +1,6 @@
 # Valory
 
-Validated types for Python.
+Validated dataclasses for Python.
 
 Installation
 ------------
