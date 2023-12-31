@@ -20,7 +20,7 @@ class User:
     username: str
     password: str
 
-    def validate(self):
+    def validate(self) -> None:
         assert isinstance(self.username, str)
         assert isinstance(self.password, str)
 ```
