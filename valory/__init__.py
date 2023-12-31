@@ -1,8 +1,10 @@
 """Valory."""
 
+from typing import Any
+
 from dataclasses import dataclass as dc
+
 from functools import wraps
-from typing import Any, Type
 
 
 def dataclass(cls) -> dc:
