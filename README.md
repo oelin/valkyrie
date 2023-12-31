@@ -13,9 +13,9 @@ Usage
 -----
 
 ```python
-from valory import validate
+from valory import dataclass
 
-@validate
+@dataclass
 class User:
     username: str
     password: str
